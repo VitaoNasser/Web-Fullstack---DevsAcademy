@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+
+    /* reset css do navegador */
+    margin: 0;
+    padding: 10;
+    font-family: 'Roboto', sans-serif;
+    height:100%;
+    width: 100%;
+    margin-bottom: 70px;
+
+}
+
+h1 {
+    margin: 10px 3em;
+    padding: 0;
+}
+
+header {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header ul li {
+    padding-left: 27px;
+    display: inline-block;
+    justify-content: space-around;
+}
+
+header ul li a {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 18px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.container {
+    background: #00796B;
+    width: 1280px;
+    height: 80px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/*main*/
+
+main {
+    position: relative;
+}
+
+h2, h3 {
+    color: #009688;
+    font-size: 32;
+}
+
+.container-home {
+
+    display: flex;
+    align-items: center;
+    justify-content:space-between; 
+    margin-top: 3.5em;
+
+    /* Ajustou a posição da figura e texto não entendi como */
+}
+
+.texto-principal {
+    max-width: 100%;
+}
+
+p {
+    color: #9B9B9B;
+    width: 80%;    
+}
+
+/* Footer */
+
+footer .container {
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h3 {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+
+
+
+
+
+
+
+
